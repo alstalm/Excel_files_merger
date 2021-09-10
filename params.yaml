@@ -1,6 +1,6 @@
-directory: 'D:/CRPT/2021.05_май/внесение изменений/загруженые файлы импорты/Молочная продукция'
-sheet_name: 'Лист1'
+directory: 'D:/CRPT/2021.08_август/расхождения/combined/' # ,без слеша на конце
+sheet_name: 'Sheet1'
 notNANcolumnsList: ['GTIN']
-outputDirectory: 'D:/CRPT/2021.05_май/внесение изменений/загруженые файлы импорты/Молочная продукция/concatinated'
+outputDirectory:  'D:/CRPT/2021.08_август/расхождения/combined/concatinated/'
 outputFile: 'concatinated.xlsx'
 log: 'log.xlsx'

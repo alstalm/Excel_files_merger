@@ -17,6 +17,7 @@ fullLogPath = outputDirectory + '/' + outputLogFile
 
 
 # выполним объединение
+
 df, log_df = excelCombiner(directory=directory, sheet_name=sheet_name, notNANcolumnsList=notNANcolumnsList)
 
 # выведем результаты
@@ -24,5 +25,7 @@ print('\nlog_df =\n  {} '.format(log_df))
 print('\ndf = \n {}'.format(df.to_string()))
 
 # сохраним результаты
+print('df = \n', df)
 df.to_excel(fullOutputPath, index=False)
+print('log_df = \n', log_df)
 log_df.to_excel(fullLogPath, index=False)
